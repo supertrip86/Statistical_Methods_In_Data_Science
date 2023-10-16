@@ -1,0 +1,8 @@
+"0","# Defining the nodes of the graph"
+"0","graph_nodes <- data.frame(node=c(1,2,3,4,5,6,7))"
+"0","# Defining the edges of the graph"
+"0","graph_edges <- data.frame(from=c(1,1,2,4,3,5,5), to=c(2,4,3,3,5,6,7)) "
+"0","# Defining the graph"
+"0","g <- igraph::graph_from_data_frame(graph_edges, directed=FALSE, vertices=graph_nodes) "
+"0","# Plotting the graph"
+"0","plot(g, vertex.size=25, vertex.color=""orchid"", main=""Undirected graph with 7 nodes and 7 edges"")"

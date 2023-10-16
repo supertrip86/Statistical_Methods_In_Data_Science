@@ -1,0 +1,5 @@
+"0","suppressPackageStartupMessages(library(igraph))"
+"0","suppressPackageStartupMessages(library(ggraph))"
+"0","suppressPackageStartupMessages(library(sdpt3r))"
+"0","suppressPackageStartupMessages(library(purrr))"
+"0","suppressPackageStartupMessages(library(poweRlaw))"

@@ -1,0 +1,4 @@
+"0","# Creating a random graph and plotting it"
+"0","randomGraph <- sample_gnm(100, 90, directed = FALSE, loops = FALSE)"
+"0","lay <- layout_with_lgl(randomGraph)"
+"0","plot(randomGraph, vertex.size=25, vertex.color=""orchid"", main=""Undirected graph with 100 nodes and 90 edges"", layout=lay)"

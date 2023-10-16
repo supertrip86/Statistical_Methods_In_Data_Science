@@ -1,0 +1,5 @@
+"0","# Converting the previous graph into a symmetric adjacency matrix"
+"0","matrix <- as.matrix(as_adjacency_matrix(g,type = c(""both"")))"
+"0","# Applying the maxcut algorithm of the package sdpt3r"
+"0","OPT <- round(maxcut(matrix)$pobj)"
+"0","OPT <- abs(OPT)"

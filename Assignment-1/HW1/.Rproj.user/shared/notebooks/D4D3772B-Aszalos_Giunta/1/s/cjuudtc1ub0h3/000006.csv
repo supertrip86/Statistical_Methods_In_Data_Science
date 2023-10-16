@@ -1,0 +1,8 @@
+"0","b = generate_graph(100000)"
+"0","plot("
+"0","     b,"
+"0","     edge.width=1,"
+"0","     edge.arrow.size=0.1,"
+"0","     vertex.size=1,"
+"0","     vertex.label.cex=0.1"
+"0","     )"

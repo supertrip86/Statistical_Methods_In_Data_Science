@@ -1,0 +1,8 @@
+"0","options(scipen = 999)"
+"0","par(mfrow=c(2,3))"
+"0","for (grph in graph_list) {"
+"0","  # we use the {igraph} built-in method to count the degree of each node."
+"0","  degrees = degree(grph, mode=""in"")"
+"0","  "
+"0","  plot(degrees, xlab=""Nodes"", ylab=""Number of vertices"")"
+"0","}"

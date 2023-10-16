@@ -1,0 +1,6 @@
+"0","c = generate_graph(100000)"
+"0","d = generate_graph(100000)"
+"0","e = generate_graph(100000)"
+"0","f = generate_graph(100000)"
+"0","g = generate_graph(100000)"
+"0","graph_list = list(b,c,d,e,f,g)"
